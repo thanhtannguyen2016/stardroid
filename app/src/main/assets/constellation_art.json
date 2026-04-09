@@ -1,0 +1,127 @@
+[
+  {
+    "id": "orion",
+    "image": "constellation_artwork/orion.webp",
+    "image_size": [512, 512],
+    "anchors": [
+      {
+        "px": 59,
+        "py": 11,
+        "ra": 88.79,
+        "dec": 7.41
+      },
+      {
+        "px": 329,
+        "py": 477,
+        "ra": 78.63,
+        "dec": -8.20
+      },
+      {
+        "px": 421,
+        "py": 91,
+        "ra": 72.46,
+        "dec": 6.96
+      }
+    ]
+  },
+  {
+    "id": "scorpius",
+    "image": "constellation_artwork/scorpius.webp",
+    "image_size": [512, 512],
+    "anchors": [
+      {
+        "px": 447,
+        "py": 29,
+        "ra": 241.36,
+        "dec": -20.54
+      },
+      {
+        "px": 62,
+        "py": 365,
+        "ra": 263.40,
+        "dec": -37.10
+      },
+      {
+        "px": 217,
+        "py": 462,
+        "ra": 253.65,
+        "dec": -42.36
+      }
+    ]
+  },
+  {
+    "id": "leo",
+    "image": "constellation_artwork/leo.webp",
+    "image_size": [512, 512],
+    "anchors": [
+      {
+        "px": 69,
+        "py": 411,
+        "ra": 177.26,
+        "dec": 14.57
+      },
+      {
+        "px": 383,
+        "py": 186,
+        "ra": 152.09,
+        "dec": 11.97
+      },
+      {
+        "px": 321,
+        "py": 32,
+        "ra": 146.46,
+        "dec": 23.77
+      }
+    ]
+  },
+  {
+    "id": "ursa_major",
+    "image": "constellation_artwork/ursa_major.webp",
+    "image_size": [512, 512],
+    "anchors": [
+      {
+        "px": 26,
+        "py": 75,
+        "ra": 206.89,
+        "dec": 49.31
+      },
+      {
+        "px": 452,
+        "py": 272,
+        "ra": 134.80,
+        "dec": 48.04
+      },
+      {
+        "px": 258,
+        "py": 394,
+        "ra": 155.58,
+        "dec": 41.50
+      }
+    ]
+  },
+  {
+    "id": "ursa_minor",
+    "image": "constellation_artwork/ursa_minor.webp",
+    "image_size": [256, 256],
+    "anchors": [
+      {
+        "px": 15,
+        "py": 20,
+        "ra": 37.95,
+        "dec": 89.26
+      },
+      {
+        "px": 193,
+        "py": 51,
+        "ra": 183.05,
+        "dec": 77.62
+      },
+      {
+        "px": 93,
+        "py": 209,
+        "ra": 251.49,
+        "dec": 82.04
+      }
+    ]
+  }
+]

@@ -39,7 +39,7 @@ public abstract class AbstractPrimitive {
   public UpdateGranularity granularity;
 
   private final int color;
-  private final Vector3 xyz;
+  private Vector3 xyz;
   private List<String> names;
 
   @Deprecated
@@ -70,5 +70,9 @@ public abstract class AbstractPrimitive {
 
   public Vector3 getLocation() {
     return xyz;
+  }
+
+  public void setLocation(Vector3 location) {
+    this.xyz = location;
   }
 }

@@ -113,6 +113,8 @@ class ApplicationModule {
     layerManager.addLayer(StarsLayer(assetManager, resources, preferences))
     layerManager.addLayer(DeepSkyObjectLayer(assetManager, resources, preferences))
     layerManager.addLayer(ConstellationsLayer(assetManager, resources, preferences))
+    layerManager.addLayer(ConstellationFigureLayer(assetManager, resources, preferences))
+    layerManager.addLayer(ConstellationArtLayer(assetManager, resources, preferences))
     layerManager.addLayer(SolarSystemLayer(model!!, resources, preferences))
     layerManager.addLayer(MeteorShowerLayer(model, resources, preferences))
     layerManager.addLayer(CometsLayer(model, resources, preferences))

@@ -77,7 +77,8 @@ public class ImageObjectManager extends RendererObjectManager {
         images[i] = new Image();
         //TODO(brent): Fix this method.
         images[i].name = "no url";
-        images[i].useBlending = false;
+        images[i].useBlending = is.requiresBlending();
+        images[i].useAdditiveBlending = is.useAdditiveBlending;
         images[i].bitmap = is.getImage();
       }
     } else {
@@ -209,7 +210,11 @@ public class ImageObjectManager extends RendererObjectManager {
     for (int i = 0; i < textures.length; i++) {
       if (mImages[i].useBlending) {
         gl.glEnable(GL10.GL_BLEND);
-        gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+        if (mImages[i].useAdditiveBlending) {
+          gl.glBlendFunc(GL10.GL_ONE, GL10.GL_ONE);
+        } else {
+          gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+        }
       } else {
         gl.glEnable(GL10.GL_ALPHA_TEST);
         gl.glAlphaFunc(GL10.GL_GREATER, 0.5f);
@@ -259,5 +264,6 @@ public class ImageObjectManager extends RendererObjectManager {
     Bitmap bitmap;
     int textureID;
     boolean useBlending;
+    boolean useAdditiveBlending;
   }
 }

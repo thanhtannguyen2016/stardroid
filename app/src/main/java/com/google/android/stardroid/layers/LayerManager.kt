@@ -40,7 +40,7 @@ class LayerManager(private val sharedPreferences: SharedPreferences) : OnSharedP
         for (layer in layers) {
             layer.registerWithRenderer(renderer)
             val prefId = layer.preferenceId
-            val visible = sharedPreferences.getBoolean(prefId, true)
+            val visible = sharedPreferences.getBoolean(prefId, getDefaultVisibility(prefId))
             layer.setVisible(visible)
         }
     }
@@ -48,7 +48,7 @@ class LayerManager(private val sharedPreferences: SharedPreferences) : OnSharedP
     override fun onSharedPreferenceChanged(prefs: SharedPreferences, key: String?) {
         for (layer in layers) {
             if (layer.preferenceId == key) {
-                val visible = prefs.getBoolean(key, true)
+                val visible = prefs.getBoolean(key, getDefaultVisibility(key))
                 layer.setVisible(visible)
             }
         }
@@ -95,7 +95,12 @@ class LayerManager(private val sharedPreferences: SharedPreferences) : OnSharedP
         return all.toSortedSet( compareBy { it.query }) // can pass in a different comparator later for different sorting criteria
     }
 
-    private fun isLayerVisible(layer: Layer) = sharedPreferences.getBoolean(layer.preferenceId, true)
+    private fun isLayerVisible(layer: Layer) = sharedPreferences.getBoolean(layer.preferenceId, getDefaultVisibility(layer.preferenceId))
+
+    private fun getDefaultVisibility(prefId: String?): Boolean {
+        // Constellation figures (lines) off by default, Constellation art on by default
+        return prefId != "source_provider.constellation_figures"
+    }
 
     companion object {
         private val TAG = MiscUtil.getTag(LayerManager::class.java)
