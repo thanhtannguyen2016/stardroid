@@ -120,6 +120,18 @@
                 stardroid:image_on="@drawable/stars_on"
                 stardroid:pref_key="source_provider.1" />
 
+            <!-- New button for constellation art -->
+            <com.google.android.stardroid.views.PreferencesButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:paddingLeft="5px"
+                android:paddingTop="7px"
+                android:paddingBottom="7px"
+                stardroid:image_off="@drawable/stars_off"
+                stardroid:image_on="@drawable/stars_on"
+                stardroid:pref_key="source_provider.constellation_art" />
+
             <com.google.android.stardroid.views.PreferencesButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
