@@ -128,8 +128,8 @@
                 android:paddingLeft="5px"
                 android:paddingTop="7px"
                 android:paddingBottom="7px"
-                stardroid:image_off="@drawable/stars_off"
-                stardroid:image_on="@drawable/stars_on"
+                stardroid:image_off="@drawable/art_off"
+                stardroid:image_on="@drawable/art_on"
                 stardroid:pref_key="source_provider.constellation_art" />
 
             <com.google.android.stardroid.views.PreferencesButton
