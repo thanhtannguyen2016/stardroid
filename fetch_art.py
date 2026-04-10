@@ -30,28 +30,28 @@ def main():
     unique_hips = set()
     selected_constellations = []
 
-    # Read the JSON from Stellarium for the 15 requested constellations
+    # Read the JSON from Stellarium for ALL available constellations
     for item in data.get('constellations', []):
         iau = item.get('iau')
-        if iau in CFG:
-            selected_constellations.append(item)
-            
-            # Fetch HIPs from lines
-            lines = item.get('lines', [])
-            for stroke in lines:
-                for pt in stroke:
-                    if isinstance(pt, int):
-                        unique_hips.add(pt)
-                    elif isinstance(pt, str) and pt.isdigit():
-                        unique_hips.add(int(pt))
-                        
-            # Fetch HIPs from anchors in image if present
-            image_obj = item.get('image', {})
-            if image_obj:
-                for anchor in image_obj.get('anchors', []):
-                    hip = anchor.get('hip')
-                    if hip:
-                        unique_hips.add(int(hip))
+        if not iau: continue
+        selected_constellations.append(item)
+        
+        # Fetch HIPs from lines
+        lines = item.get('lines', [])
+        for stroke in lines:
+            for pt in stroke:
+                if isinstance(pt, int):
+                    unique_hips.add(pt)
+                elif isinstance(pt, str) and pt.isdigit():
+                    unique_hips.add(int(pt))
+                    
+        # Fetch HIPs from anchors in image if present
+        image_obj = item.get('image', {})
+        if image_obj:
+            for anchor in image_obj.get('anchors', []):
+                hip = anchor.get('hip')
+                if hip:
+                    unique_hips.add(int(hip))
 
     print(f"Found {len(unique_hips)} unique HIP stars. Fetching coordinates from VizieR...")
     hip_coords = {}
@@ -95,7 +95,7 @@ def main():
     
     for item in selected_constellations:
         iau = item.get('iau')
-        cfg = CFG[iau]
+        cfg = CFG.get(iau, {"id": iau.lower(), "color": "0x55FFFFFF"}) # 55FFFFFF is dim white for the rest
         target_id = cfg['id']
         
         # 1. Figures Line Art
@@ -169,7 +169,7 @@ def main():
     with open(bat_file, "w", encoding="utf-8") as f:
         f.write("\n".join(art_script_lines))
 
-    print("Success! Wrote 15 constellations into JSON files and updated copy_artwork.bat with new artwork URLs!")
+    print(f"Success! Wrote {len(selected_constellations)} constellations into JSON files and updated copy_artwork.bat with new artwork URLs!")
 
 if __name__ == "__main__":
     main()
