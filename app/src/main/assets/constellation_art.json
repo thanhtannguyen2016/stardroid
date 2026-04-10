@@ -1,126 +1,421 @@
 [
   {
-    "id": "orion",
-    "image": "constellation_artwork/orion.webp",
-    "image_size": [512, 512],
+    "id": "andromeda",
+    "image": "constellation_artwork/andromeda.webp",
+    "image_size": [
+      512,
+      512
+    ],
     "anchors": [
       {
-        "px": 59,
-        "py": 11,
-        "ra": 88.79,
-        "dec": 7.41
+        "px": 198.0,
+        "py": 215.0,
+        "ra": 12.45353036,
+        "dec": 41.07891087
       },
       {
-        "px": 329,
-        "py": 477,
-        "ra": 78.63,
-        "dec": -8.20
+        "px": 337.0,
+        "py": 136.0,
+        "ra": 9.83198236,
+        "dec": 30.86102393
       },
       {
-        "px": 421,
-        "py": 91,
-        "ra": 72.46,
-        "dec": 6.96
+        "px": 224.0,
+        "py": 428.0,
+        "ra": 30.97480447,
+        "dec": 42.32972473
       }
     ]
   },
   {
-    "id": "scorpius",
-    "image": "constellation_artwork/scorpius.webp",
-    "image_size": [512, 512],
+    "id": "bootes",
+    "image": "constellation_artwork/bootes.webp",
+    "image_size": [
+      512,
+      512
+    ],
     "anchors": [
       {
-        "px": 447,
-        "py": 29,
-        "ra": 241.36,
-        "dec": -20.54
+        "px": 225.0,
+        "py": 222.0,
+        "ra": 221.24674043,
+        "dec": 27.07422244
       },
       {
-        "px": 62,
-        "py": 365,
-        "ra": 263.40,
-        "dec": -37.10
+        "px": 365.0,
+        "py": 184.0,
+        "ra": 218.0194663,
+        "dec": 38.30825261
       },
       {
-        "px": 217,
-        "py": 462,
-        "ra": 253.65,
-        "dec": -42.36
+        "px": 207.0,
+        "py": 401.0,
+        "ra": 208.67116138,
+        "dec": 18.39771704
+      }
+    ]
+  },
+  {
+    "id": "cassiopeia",
+    "image": "constellation_artwork/cassiopeia.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 390.0,
+        "py": 336.0,
+        "ra": 28.59885632,
+        "dec": 63.67010151
+      },
+      {
+        "px": 163.0,
+        "py": 156.0,
+        "ra": 10.12683548,
+        "dec": 56.53733109
+      },
+      {
+        "px": 73.0,
+        "py": 243.0,
+        "ra": 2.29452113,
+        "dec": 59.1497796
+      }
+    ]
+  },
+  {
+    "id": "cygnus",
+    "image": "constellation_artwork/cygnus.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 7.0,
+        "py": 382.0,
+        "ra": 326.0357404,
+        "dec": 28.74263231
+      },
+      {
+        "px": 474.0,
+        "py": 46.0,
+        "ra": 289.27570325,
+        "dec": 53.36845943
+      },
+      {
+        "px": 467.0,
+        "py": 453.0,
+        "ra": 292.68033578,
+        "dec": 27.95968112
+      }
+    ]
+  },
+  {
+    "id": "gemini",
+    "image": "constellation_artwork/gemini.webp",
+    "image_size": [
+      256,
+      256
+    ],
+    "anchors": [
+      {
+        "px": 14.0,
+        "py": 81.0,
+        "ra": 116.11189245,
+        "dec": 24.3979926
+      },
+      {
+        "px": 117.0,
+        "py": 252.0,
+        "ra": 101.32235265,
+        "dec": 12.89559111
+      },
+      {
+        "px": 249.0,
+        "py": 165.0,
+        "ra": 91.03006202,
+        "dec": 23.26334108
+      }
+    ]
+  },
+  {
+    "id": "canis_major",
+    "image": "constellation_artwork/canis-major.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 21.0,
+        "py": 347.0,
+        "ra": 111.02376056,
+        "dec": -29.3031036
+      },
+      {
+        "px": 321.0,
+        "py": 24.0,
+        "ra": 103.54749079,
+        "dec": -12.0386279
+      },
+      {
+        "px": 318.0,
+        "py": 492.0,
+        "ra": 95.07830229,
+        "dec": -30.0633673
+      }
+    ]
+  },
+  {
+    "id": "ursa_major",
+    "image": "constellation_artwork/ursa-major.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 26.0,
+        "py": 75.0,
+        "ra": 206.88515682,
+        "dec": 49.31326506
+      },
+      {
+        "px": 452.0,
+        "py": 272.0,
+        "ra": 127.56612488,
+        "dec": 60.71816925
+      },
+      {
+        "px": 258.0,
+        "py": 394.0,
+        "ra": 154.27413109,
+        "dec": 42.91436491
       }
     ]
   },
   {
     "id": "leo",
     "image": "constellation_artwork/leo.webp",
-    "image_size": [512, 512],
+    "image_size": [
+      512,
+      512
+    ],
     "anchors": [
       {
-        "px": 69,
-        "py": 411,
-        "ra": 177.26,
-        "dec": 14.57
+        "px": 69.0,
+        "py": 411.0,
+        "ra": 177.26490656,
+        "dec": 14.57206032
       },
       {
-        "px": 383,
-        "py": 186,
-        "ra": 152.09,
-        "dec": 11.97
+        "px": 383.0,
+        "py": 186.0,
+        "ra": 152.0929611,
+        "dec": 11.96720706
       },
       {
-        "px": 321,
-        "py": 32,
-        "ra": 146.46,
-        "dec": 23.77
+        "px": 321.0,
+        "py": 32.0,
+        "ra": 146.46280429,
+        "dec": 23.77425466
       }
     ]
   },
   {
-    "id": "ursa_major",
-    "image": "constellation_artwork/ursa_major.webp",
-    "image_size": [512, 512],
+    "id": "orion",
+    "image": "constellation_artwork/orion.webp",
+    "image_size": [
+      512,
+      512
+    ],
     "anchors": [
       {
-        "px": 26,
-        "py": 75,
-        "ra": 206.89,
-        "dec": 49.31
+        "px": 59.0,
+        "py": 11.0,
+        "ra": 88.59576026,
+        "dec": 20.27617455
       },
       {
-        "px": 452,
-        "py": 272,
-        "ra": 134.80,
-        "dec": 48.04
+        "px": 329.0,
+        "py": 477.0,
+        "ra": 86.93912023,
+        "dec": -9.66960478
       },
       {
-        "px": 258,
-        "py": 394,
-        "ra": 155.58,
-        "dec": 41.50
+        "px": 421.0,
+        "py": 91.0,
+        "ra": 72.46004413,
+        "dec": 6.96127568
+      }
+    ]
+  },
+  {
+    "id": "pegasus",
+    "image": "constellation_artwork/pegasus.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 164.0,
+        "py": 41.0,
+        "ra": 326.04649214,
+        "dec": 9.87501126
+      },
+      {
+        "px": 47.0,
+        "py": 283.0,
+        "ra": 332.49685019,
+        "dec": 33.17822387
+      },
+      {
+        "px": 409.0,
+        "py": 349.0,
+        "ra": 3.30897012,
+        "dec": 15.1835959
       }
     ]
   },
   {
     "id": "ursa_minor",
-    "image": "constellation_artwork/ursa_minor.webp",
-    "image_size": [256, 256],
+    "image": "constellation_artwork/ursa-minor.webp",
+    "image_size": [
+      256,
+      256
+    ],
     "anchors": [
       {
-        "px": 15,
-        "py": 20,
-        "ra": 37.95,
-        "dec": 89.26
+        "px": 15.0,
+        "py": 20.0,
+        "ra": 37.95451535,
+        "dec": 89.26410951
       },
       {
-        "px": 193,
-        "py": 51,
-        "ra": 183.05,
-        "dec": 77.62
+        "px": 193.0,
+        "py": 51.0,
+        "ra": 183.04975767,
+        "dec": 77.61624147
       },
       {
-        "px": 93,
-        "py": 209,
-        "ra": 251.49,
-        "dec": 82.04
+        "px": 93.0,
+        "py": 209.0,
+        "ra": 244.37619927,
+        "dec": 75.75533045
+      }
+    ]
+  },
+  {
+    "id": "sagittarius",
+    "image": "constellation_artwork/sagittarius.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 96.0,
+        "py": 82.0,
+        "ra": 290.41816155,
+        "dec": -17.84719749
+      },
+      {
+        "px": 307.0,
+        "py": 492.0,
+        "ra": 290.80473701,
+        "dec": -44.79977847
+      },
+      {
+        "px": 506.0,
+        "py": 100.0,
+        "ra": 266.89010281,
+        "dec": -27.83078848
+      }
+    ]
+  },
+  {
+    "id": "scorpius",
+    "image": "constellation_artwork/scorpius.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 447.0,
+        "py": 29.0,
+        "ra": 241.35929462,
+        "dec": -19.80545336
+      },
+      {
+        "px": 62.0,
+        "py": 365.0,
+        "ra": 263.40216661,
+        "dec": -37.10382115
+      },
+      {
+        "px": 217.0,
+        "py": 462.0,
+        "ra": 253.64585529,
+        "dec": -42.36131277
+      }
+    ]
+  },
+  {
+    "id": "taurus",
+    "image": "constellation_artwork/taurus.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 13.0,
+        "py": 92.0,
+        "ra": 84.4111907,
+        "dec": 21.14254914
+      },
+      {
+        "px": 399.0,
+        "py": 438.0,
+        "ra": 51.20330738,
+        "dec": 9.02886984
+      },
+      {
+        "px": 382.0,
+        "py": 192.0,
+        "ra": 57.29059399,
+        "dec": 24.05341547
+      }
+    ]
+  },
+  {
+    "id": "virgo",
+    "image": "constellation_artwork/virgo.webp",
+    "image_size": [
+      512,
+      512
+    ],
+    "anchors": [
+      {
+        "px": 65.0,
+        "py": 389.0,
+        "ra": 221.56218374,
+        "dec": 1.89288544
+      },
+      {
+        "px": 454.0,
+        "py": 57.0,
+        "ra": 176.46482927,
+        "dec": 6.52937639
+      },
+      {
+        "px": 338.0,
+        "py": 382.0,
+        "ra": 201.29824701,
+        "dec": -11.16132203
       }
     ]
   }

@@ -1,375 +1,1485 @@
 [
   {
-    "id": "orion",
-    "comment": "Orion - The Hunter. Stars used: Meissa, Betelgeuse, Bellatrix, Belt stars, Rigel, Saiph, Pi stars (shield)",
-    "color": "0x50F0E68C",
+    "id": "andromeda",
+    "comment": "andromeda figures from Stellarium",
+    "color": "0x80E6E6FA",
     "line_width": 1.5,
     "strokes": [
-      {"comment": "head_circle_around_Meissa", "vertices": [
-        {"ra": 82.0, "dec": 11.2}, {"ra": 81.5, "dec": 10.2}, {"ra": 81.8, "dec": 9.2},
-        {"ra": 82.8, "dec": 8.7}, {"ra": 83.8, "dec": 8.8}, {"ra": 84.8, "dec": 9.3},
-        {"ra": 85.2, "dec": 10.3}, {"ra": 84.8, "dec": 11.2}, {"ra": 83.8, "dec": 11.7},
-        {"ra": 82.8, "dec": 11.5}, {"ra": 82.0, "dec": 11.2}
-      ]},
-      {"comment": "neck_to_left_shoulder_Betelgeuse", "vertices": [
-        {"ra": 84.8, "dec": 9.3}, {"ra": 86.0, "dec": 8.8}, {"ra": 87.5, "dec": 8.2}, {"ra": 88.79, "dec": 7.41}
-      ]},
-      {"comment": "neck_to_right_shoulder_Bellatrix", "vertices": [
-        {"ra": 82.0, "dec": 9.2}, {"ra": 81.5, "dec": 8.5}, {"ra": 81.28, "dec": 7.5}, {"ra": 81.28, "dec": 6.35}
-      ]},
-      {"comment": "left_arm_raised_club_from_Betelgeuse", "vertices": [
-        {"ra": 88.79, "dec": 7.41}, {"ra": 89.5, "dec": 9.0}, {"ra": 90.0, "dec": 11.0},
-        {"ra": 90.3, "dec": 13.0}, {"ra": 90.6, "dec": 9.65}, {"ra": 90.8, "dec": 16.0},
-        {"ra": 91.0, "dec": 18.0}, {"ra": 91.89, "dec": 14.77}
-      ]},
-      {"comment": "club_top_curved", "vertices": [
-        {"ra": 91.89, "dec": 14.77}, {"ra": 92.5, "dec": 16.5}, {"ra": 92.0, "dec": 18.5},
-        {"ra": 90.5, "dec": 19.5}, {"ra": 89.0, "dec": 19.0}, {"ra": 88.6, "dec": 20.14},
-        {"ra": 89.5, "dec": 21.0}, {"ra": 91.0, "dec": 20.28},
-        {"ra": 92.0, "dec": 19.0}, {"ra": 92.98, "dec": 14.21}
-      ]},
-      {"comment": "right_arm_to_shield_from_Bellatrix", "vertices": [
-        {"ra": 81.28, "dec": 6.35}, {"ra": 80.0, "dec": 7.0}, {"ra": 78.5, "dec": 8.0},
-        {"ra": 77.0, "dec": 8.5}, {"ra": 75.5, "dec": 8.5}
-      ]},
-      {"comment": "shield_using_Pi_stars_curved_bow", "vertices": [
-        {"ra": 72.80, "dec": 8.90}, {"ra": 72.46, "dec": 6.96}, {"ra": 73.56, "dec": 6.84},
-        {"ra": 74.74, "dec": 5.60}, {"ra": 75.09, "dec": 2.44}, {"ra": 75.49, "dec": 1.47},
-        {"ra": 76.0, "dec": -1.0}, {"ra": 76.5, "dec": -3.0}, {"ra": 77.5, "dec": -5.0}
-      ]},
-      {"comment": "torso_left_Betelgeuse_to_belt_to_Saiph", "vertices": [
-        {"ra": 88.79, "dec": 7.41}, {"ra": 88.5, "dec": 5.0}, {"ra": 88.0, "dec": 3.0},
-        {"ra": 87.0, "dec": 1.0}, {"ra": 86.0, "dec": -1.0}, {"ra": 85.19, "dec": -1.94},
-        {"ra": 85.5, "dec": -3.5}, {"ra": 86.0, "dec": -5.5}, {"ra": 86.5, "dec": -7.5},
-        {"ra": 86.94, "dec": -9.67}
-      ]},
-      {"comment": "torso_right_Bellatrix_to_belt_to_Rigel", "vertices": [
-        {"ra": 81.28, "dec": 6.35}, {"ra": 81.5, "dec": 4.0}, {"ra": 81.5, "dec": 2.0},
-        {"ra": 82.0, "dec": 0.0}, {"ra": 83.00, "dec": -0.30},
-        {"ra": 82.5, "dec": -2.0}, {"ra": 81.5, "dec": -4.0}, {"ra": 80.5, "dec": -6.0},
-        {"ra": 78.63, "dec": -8.20}
-      ]},
-      {"comment": "left_foot_from_Saiph", "vertices": [
-        {"ra": 86.94, "dec": -9.67}, {"ra": 87.5, "dec": -10.5}, {"ra": 88.5, "dec": -10.8},
-        {"ra": 89.0, "dec": -10.2}
-      ]},
-      {"comment": "right_foot_from_Rigel", "vertices": [
-        {"ra": 78.63, "dec": -8.20}, {"ra": 77.5, "dec": -9.5}, {"ra": 76.5, "dec": -9.8},
-        {"ra": 76.0, "dec": -9.0}
-      ]},
-      {"comment": "belt_line", "vertices": [
-        {"ra": 83.00, "dec": -0.30}, {"ra": 84.05, "dec": -1.20}, {"ra": 85.19, "dec": -1.94}
-      ]},
-      {"comment": "sword_hanging_from_belt", "vertices": [
-        {"ra": 83.8, "dec": -1.5}, {"ra": 83.9, "dec": -3.0}, {"ra": 84.0, "dec": -4.5},
-        {"ra": 83.85, "dec": -5.5}
-      ]}
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 2.09691071,
+            "dec": 29.09043199
+          },
+          {
+            "ra": 9.83198236,
+            "dec": 30.86102393
+          },
+          {
+            "ra": 17.43301493,
+            "dec": 35.6205577
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 30.97480447,
+            "dec": 42.32972473
+          },
+          {
+            "ra": 17.43301493,
+            "dec": 35.6205577
+          },
+          {
+            "ra": 14.18838148,
+            "dec": 38.49934462
+          },
+          {
+            "ra": 12.45353036,
+            "dec": 41.07891087
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "scorpius",
-    "comment": "Scorpius - The Scorpion. Accurate star coords: Graffias, Dschubba, pi/rho Sco (claws), Antares, epsilon-theta (body/tail), Shaula/Lesath (stinger)",
-    "color": "0x50FF6347",
+    "id": "bootes",
+    "comment": "bootes figures from Stellarium",
+    "color": "0x80FFA07A",
     "line_width": 1.5,
     "strokes": [
-      {"comment": "left_claw_upper_from_beta_through_nu", "vertices": [
-        {"ra": 241.36, "dec": -19.81}, {"ra": 242.99, "dec": -19.46},
-        {"ra": 240.0, "dec": -17.5}, {"ra": 237.5, "dec": -16.5},
-        {"ra": 235.0, "dec": -16.8}, {"ra": 233.5, "dec": -18.0}
-      ]},
-      {"comment": "left_claw_lower_pincer", "vertices": [
-        {"ra": 241.36, "dec": -19.81}, {"ra": 239.0, "dec": -20.5},
-        {"ra": 237.0, "dec": -21.0}, {"ra": 235.0, "dec": -20.5},
-        {"ra": 233.5, "dec": -18.0}
-      ]},
-      {"comment": "right_claw_upper_from_delta_through_pi", "vertices": [
-        {"ra": 240.08, "dec": -22.62}, {"ra": 239.71, "dec": -26.11},
-        {"ra": 237.5, "dec": -24.0}, {"ra": 235.5, "dec": -24.5},
-        {"ra": 233.0, "dec": -25.5}, {"ra": 231.5, "dec": -26.5}
-      ]},
-      {"comment": "right_claw_lower_pincer_through_rho", "vertices": [
-        {"ra": 240.08, "dec": -22.62}, {"ra": 239.22, "dec": -29.21},
-        {"ra": 237.0, "dec": -28.0}, {"ra": 235.0, "dec": -27.5},
-        {"ra": 233.0, "dec": -27.5}, {"ra": 231.5, "dec": -26.5}
-      ]},
-      {"comment": "head_to_heart_beta_sigma_antares", "vertices": [
-        {"ra": 241.36, "dec": -19.81}, {"ra": 243.0, "dec": -22.0},
-        {"ra": 245.30, "dec": -25.59}, {"ra": 247.35, "dec": -26.43}
-      ]},
-      {"comment": "body_left_outline_antares_to_tail", "vertices": [
-        {"ra": 247.35, "dec": -26.43}, {"ra": 249.5, "dec": -28.0},
-        {"ra": 248.97, "dec": -28.22}, {"ra": 251.0, "dec": -31.0},
-        {"ra": 252.54, "dec": -34.29}, {"ra": 253.5, "dec": -36.5},
-        {"ra": 252.97, "dec": -38.05}, {"ra": 253.50, "dec": -42.36},
-        {"ra": 255.5, "dec": -43.0}, {"ra": 258.04, "dec": -43.24}
-      ]},
-      {"comment": "body_right_outline", "vertices": [
-        {"ra": 247.35, "dec": -26.43}, {"ra": 250.0, "dec": -29.0},
-        {"ra": 253.5, "dec": -33.0}, {"ra": 255.0, "dec": -37.0},
-        {"ra": 256.0, "dec": -41.0}, {"ra": 258.04, "dec": -43.24}
-      ]},
-      {"comment": "tail_curve_eta_theta_iota_kappa", "vertices": [
-        {"ra": 258.04, "dec": -43.24}, {"ra": 260.0, "dec": -43.5},
-        {"ra": 262.0, "dec": -42.5}, {"ra": 264.33, "dec": -42.99},
-        {"ra": 266.90, "dec": -40.13}, {"ra": 265.62, "dec": -39.03}
-      ]},
-      {"comment": "stinger_shaula_lesath", "vertices": [
-        {"ra": 265.62, "dec": -39.03}, {"ra": 263.40, "dec": -37.10},
-        {"ra": 262.69, "dec": -37.30}
-      ]},
-      {"comment": "stinger_tip_left", "vertices": [
-        {"ra": 263.40, "dec": -37.10}, {"ra": 264.5, "dec": -35.5},
-        {"ra": 264.0, "dec": -34.0}
-      ]},
-      {"comment": "stinger_tip_right", "vertices": [
-        {"ra": 262.69, "dec": -37.30}, {"ra": 261.5, "dec": -35.5},
-        {"ra": 262.0, "dec": -34.0}
-      ]},
-      {"comment": "legs_pair1", "vertices": [
-        {"ra": 249.5, "dec": -28.0}, {"ra": 248.0, "dec": -25.5}, {"ra": 247.0, "dec": -24.0}
-      ]},
-      {"comment": "legs_pair2", "vertices": [
-        {"ra": 251.0, "dec": -31.0}, {"ra": 249.0, "dec": -29.0}, {"ra": 248.0, "dec": -27.5}
-      ]},
-      {"comment": "legs_pair3", "vertices": [
-        {"ra": 253.5, "dec": -33.0}, {"ra": 255.5, "dec": -31.0}, {"ra": 257.0, "dec": -30.0}
-      ]},
-      {"comment": "legs_pair4", "vertices": [
-        {"ra": 255.0, "dec": -37.0}, {"ra": 257.0, "dec": -35.0}, {"ra": 258.5, "dec": -34.0}
-      ]}
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 220.2872992,
+            "dec": 13.72830024
+          },
+          {
+            "ra": 213.9153001,
+            "dec": 19.1824103
+          },
+          {
+            "ra": 221.24674043,
+            "dec": 27.07422244
+          },
+          {
+            "ra": 228.87567917,
+            "dec": 33.31483347
+          },
+          {
+            "ra": 225.48650975,
+            "dec": 40.39056569
+          },
+          {
+            "ra": 218.0194663,
+            "dec": 38.30825261
+          },
+          {
+            "ra": 217.95745802,
+            "dec": 30.37143717
+          },
+          {
+            "ra": 213.9153001,
+            "dec": 19.1824103
+          },
+          {
+            "ra": 208.67116138,
+            "dec": 18.39771704
+          },
+          {
+            "ra": 207.36933786,
+            "dec": 15.7979049
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "leo",
-    "comment": "Leo - The Lion. Uses Sickle asterism for head/mane, body through delta/theta, tail to Denebola",
-    "color": "0x50FFD700",
+    "id": "cassiopeia",
+    "comment": "cassiopeia figures from Stellarium",
+    "color": "0x80FFB6C1",
     "line_width": 1.5,
     "strokes": [
-      {"comment": "mane_outer_curve_sickle_epsilon_mu_zeta", "vertices": [
-        {"ra": 152.09, "dec": 11.97}, {"ra": 151.83, "dec": 16.76},
-        {"ra": 150.5, "dec": 18.5}, {"ra": 149.5, "dec": 20.5},
-        {"ra": 148.19, "dec": 26.01}, {"ra": 150.0, "dec": 24.5},
-        {"ra": 152.0, "dec": 23.8}, {"ra": 154.17, "dec": 23.42},
-        {"ra": 154.99, "dec": 19.84}
-      ]},
-      {"comment": "mane_inner_ear_detail", "vertices": [
-        {"ra": 146.46, "dec": 23.77}, {"ra": 148.19, "dec": 26.01},
-        {"ra": 149.5, "dec": 27.0}, {"ra": 150.5, "dec": 26.0},
-        {"ra": 150.0, "dec": 24.5}
-      ]},
-      {"comment": "face_Regulus_to_Algieba", "vertices": [
-        {"ra": 152.09, "dec": 11.97}, {"ra": 153.0, "dec": 13.5},
-        {"ra": 154.0, "dec": 15.5}, {"ra": 154.5, "dec": 17.5},
-        {"ra": 154.99, "dec": 19.84}
-      ]},
-      {"comment": "nose_chin_from_Regulus", "vertices": [
-        {"ra": 152.09, "dec": 11.97}, {"ra": 150.0, "dec": 11.0},
-        {"ra": 148.0, "dec": 10.5}, {"ra": 146.5, "dec": 11.0},
-        {"ra": 146.0, "dec": 12.5}
-      ]},
-      {"comment": "eye_dot", "vertices": [
-        {"ra": 151.0, "dec": 14.5}, {"ra": 151.5, "dec": 15.0}
-      ]},
-      {"comment": "back_line_Algieba_to_Zosma", "vertices": [
-        {"ra": 154.99, "dec": 19.84}, {"ra": 157.0, "dec": 21.0},
-        {"ra": 160.0, "dec": 22.0}, {"ra": 163.0, "dec": 22.0},
-        {"ra": 166.0, "dec": 21.5}, {"ra": 168.53, "dec": 20.52}
-      ]},
-      {"comment": "belly_line_curved", "vertices": [
-        {"ra": 152.09, "dec": 11.97}, {"ra": 155.0, "dec": 10.0},
-        {"ra": 158.0, "dec": 9.0}, {"ra": 161.0, "dec": 8.5},
-        {"ra": 164.0, "dec": 9.0}, {"ra": 167.0, "dec": 10.5},
-        {"ra": 170.98, "dec": 10.53}, {"ra": 168.56, "dec": 15.43}
-      ]},
-      {"comment": "hindquarters_connect", "vertices": [
-        {"ra": 168.53, "dec": 20.52}, {"ra": 169.0, "dec": 18.0},
-        {"ra": 168.56, "dec": 15.43}
-      ]},
-      {"comment": "tail_curve_to_Denebola", "vertices": [
-        {"ra": 168.53, "dec": 20.52}, {"ra": 170.5, "dec": 19.5},
-        {"ra": 173.0, "dec": 18.0}, {"ra": 175.0, "dec": 16.5},
-        {"ra": 177.27, "dec": 14.57}
-      ]},
-      {"comment": "tail_tuft", "vertices": [
-        {"ra": 178.5, "dec": 15.5}, {"ra": 177.27, "dec": 14.57},
-        {"ra": 178.0, "dec": 13.0}, {"ra": 179.0, "dec": 13.5},
-        {"ra": 178.5, "dec": 15.5}
-      ]},
-      {"comment": "front_leg_1", "vertices": [
-        {"ra": 155.0, "dec": 10.0}, {"ra": 154.5, "dec": 7.0},
-        {"ra": 155.0, "dec": 4.5}, {"ra": 156.0, "dec": 4.0}
-      ]},
-      {"comment": "front_leg_2", "vertices": [
-        {"ra": 158.0, "dec": 9.0}, {"ra": 157.5, "dec": 6.0},
-        {"ra": 158.0, "dec": 4.0}, {"ra": 159.0, "dec": 3.5}
-      ]},
-      {"comment": "hind_leg_1", "vertices": [
-        {"ra": 164.0, "dec": 9.0}, {"ra": 164.0, "dec": 6.0},
-        {"ra": 164.5, "dec": 3.5}, {"ra": 165.5, "dec": 3.0}
-      ]},
-      {"comment": "hind_leg_2", "vertices": [
-        {"ra": 167.0, "dec": 10.5}, {"ra": 167.5, "dec": 7.0},
-        {"ra": 167.0, "dec": 4.5}, {"ra": 168.0, "dec": 4.0}
-      ]}
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 28.59885632,
+            "dec": 63.67010151
+          },
+          {
+            "ra": 21.45396795,
+            "dec": 60.23528317
+          },
+          {
+            "ra": 14.17721554,
+            "dec": 60.71674038
+          },
+          {
+            "ra": 10.12683548,
+            "dec": 56.53733109
+          },
+          {
+            "ra": 2.29452113,
+            "dec": 59.1497796
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cygnus",
+    "comment": "cygnus figures from Stellarium",
+    "color": "0x80ADD8E6",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 289.27570325,
+            "dec": 53.36845943
+          },
+          {
+            "ra": 292.42649598,
+            "dec": 51.72977887
+          },
+          {
+            "ra": 296.24365768,
+            "dec": 45.13080969
+          },
+          {
+            "ra": 305.5570912,
+            "dec": 40.25667924
+          },
+          {
+            "ra": 310.35797809,
+            "dec": 45.280338
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 305.5570912,
+            "dec": 40.25667924
+          },
+          {
+            "ra": 311.55284473,
+            "dec": 33.9702561
+          },
+          {
+            "ra": 318.2341091,
+            "dec": 30.22691571
+          },
+          {
+            "ra": 326.0357404,
+            "dec": 28.74263231
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 305.5570912,
+            "dec": 40.25667924
+          },
+          {
+            "ra": 299.0765497,
+            "dec": 35.08342371
+          },
+          {
+            "ra": 292.68033578,
+            "dec": 27.95968112
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gemini",
+    "comment": "gemini figures from Stellarium",
+    "color": "0x8098FB98",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 99.42792124,
+            "dec": 16.39925217
+          },
+          {
+            "ra": 106.02721594,
+            "dec": 20.57029706
+          },
+          {
+            "ra": 110.03073983,
+            "dec": 21.98232055
+          },
+          {
+            "ra": 109.52324476,
+            "dec": 16.54038314
+          },
+          {
+            "ra": 101.32235265,
+            "dec": 12.89559111
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 110.03073983,
+            "dec": 21.98232055
+          },
+          {
+            "ra": 113.98060996,
+            "dec": 26.89574074
+          },
+          {
+            "ra": 116.11189245,
+            "dec": 24.3979926
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 113.98060996,
+            "dec": 26.89574074
+          },
+          {
+            "ra": 116.32895983,
+            "dec": 28.02619862
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 113.98060996,
+            "dec": 26.89574074
+          },
+          {
+            "ra": 111.43165048,
+            "dec": 27.7980804
+          },
+          {
+            "ra": 107.78487783,
+            "dec": 30.24516301
+          },
+          {
+            "ra": 113.64942834,
+            "dec": 31.88827629
+          }
+        ]
+      },
+      {
+        "comment": "stroke_4",
+        "vertices": [
+          {
+            "ra": 107.78487783,
+            "dec": 30.24516301
+          },
+          {
+            "ra": 103.19724251,
+            "dec": 33.96125399
+          }
+        ]
+      },
+      {
+        "comment": "stroke_5",
+        "vertices": [
+          {
+            "ra": 107.78487783,
+            "dec": 30.24516301
+          },
+          {
+            "ra": 100.98302496,
+            "dec": 25.13112417
+          },
+          {
+            "ra": 97.24077812,
+            "dec": 20.21213298
+          }
+        ]
+      },
+      {
+        "comment": "stroke_6",
+        "vertices": [
+          {
+            "ra": 100.98302496,
+            "dec": 25.13112417
+          },
+          {
+            "ra": 95.74011257,
+            "dec": 22.51358585
+          },
+          {
+            "ra": 93.71940501,
+            "dec": 22.50679887
+          },
+          {
+            "ra": 91.03006202,
+            "dec": 23.26334108
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "canis_major",
+    "comment": "canis_major figures from Stellarium",
+    "color": "0x80FFFFE0",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 103.54749079,
+            "dec": -12.0386279
+          },
+          {
+            "ra": 105.93955289,
+            "dec": -15.63328598
+          },
+          {
+            "ra": 104.03427011,
+            "dec": -17.05424211
+          },
+          {
+            "ra": 101.28715539,
+            "dec": -16.71611582
+          },
+          {
+            "ra": 105.75613571,
+            "dec": -23.83329091
+          },
+          {
+            "ra": 107.09785107,
+            "dec": -26.39319967
+          },
+          {
+            "ra": 108.70272548,
+            "dec": -26.77266737
+          },
+          {
+            "ra": 111.02376056,
+            "dec": -29.3031036
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 104.65645182,
+            "dec": -28.97208374
+          },
+          {
+            "ra": 105.42978223,
+            "dec": -27.93483037
+          },
+          {
+            "ra": 107.09785107,
+            "dec": -26.39319967
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 105.42978223,
+            "dec": -27.93483037
+          },
+          {
+            "ra": 103.53313596,
+            "dec": -24.18421076
+          },
+          {
+            "ra": 99.17098928,
+            "dec": -19.2558792
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 99.17098928,
+            "dec": -19.2558792
+          },
+          {
+            "ra": 98.76411763,
+            "dec": -22.96479303
+          }
+        ]
+      },
+      {
+        "comment": "stroke_4",
+        "vertices": [
+          {
+            "ra": 101.28715539,
+            "dec": -16.71611582
+          },
+          {
+            "ra": 95.67493869,
+            "dec": -17.95591772
+          }
+        ]
+      },
+      {
+        "comment": "stroke_5",
+        "vertices": [
+          {
+            "ra": 99.17098928,
+            "dec": -19.2558792
+          },
+          {
+            "ra": 101.28715539,
+            "dec": -16.71611582
+          }
+        ]
+      },
+      {
+        "comment": "stroke_6",
+        "vertices": [
+          {
+            "ra": 95.07830229,
+            "dec": -30.0633673
+          },
+          {
+            "ra": 104.65645182,
+            "dec": -28.97208374
+          }
+        ]
+      },
+      {
+        "comment": "stroke_7",
+        "vertices": [
+          {
+            "ra": 104.03427011,
+            "dec": -17.05424211
+          },
+          {
+            "ra": 103.54749079,
+            "dec": -12.0386279
+          }
+        ]
+      }
     ]
   },
   {
     "id": "ursa_major",
-    "comment": "Ursa Major - The Great Bear. Big Dipper = back+tail, extended body with head, 4 legs using real star positions",
-    "color": "0x5087CEEB",
+    "comment": "ursa_major figures from Stellarium",
+    "color": "0x8087CEEB",
     "line_width": 1.5,
     "strokes": [
-      {"comment": "head_outline_from_Dubhe_toward_Muscida", "vertices": [
-        {"ra": 165.93, "dec": 61.75}, {"ra": 160.0, "dec": 63.0},
-        {"ra": 155.0, "dec": 64.0}, {"ra": 150.0, "dec": 63.5},
-        {"ra": 145.0, "dec": 62.0}, {"ra": 140.0, "dec": 63.0},
-        {"ra": 139.92, "dec": 63.06}, {"ra": 135.0, "dec": 62.0},
-        {"ra": 130.0, "dec": 61.0}, {"ra": 127.57, "dec": 60.72}
-      ]},
-      {"comment": "head_bottom_jaw", "vertices": [
-        {"ra": 127.57, "dec": 60.72}, {"ra": 129.0, "dec": 58.5},
-        {"ra": 132.0, "dec": 57.0}, {"ra": 135.91, "dec": 51.68},
-        {"ra": 134.80, "dec": 48.04}
-      ]},
-      {"comment": "nose_snout", "vertices": [
-        {"ra": 127.57, "dec": 60.72}, {"ra": 125.0, "dec": 60.0},
-        {"ra": 124.0, "dec": 59.0}, {"ra": 125.0, "dec": 58.0},
-        {"ra": 127.0, "dec": 57.5}, {"ra": 129.0, "dec": 58.5}
-      ]},
-      {"comment": "ear_left", "vertices": [
-        {"ra": 135.0, "dec": 62.0}, {"ra": 134.0, "dec": 64.5},
-        {"ra": 136.0, "dec": 65.0}, {"ra": 138.0, "dec": 63.5}
-      ]},
-      {"comment": "ear_right", "vertices": [
-        {"ra": 150.0, "dec": 63.5}, {"ra": 150.0, "dec": 66.0},
-        {"ra": 152.0, "dec": 66.5}, {"ra": 153.0, "dec": 65.0}, {"ra": 152.0, "dec": 63.5}
-      ]},
-      {"comment": "chest_head_to_front_legs", "vertices": [
-        {"ra": 165.46, "dec": 56.38}, {"ra": 160.0, "dec": 56.0},
-        {"ra": 155.0, "dec": 55.0}, {"ra": 150.0, "dec": 53.5},
-        {"ra": 145.0, "dec": 52.0}, {"ra": 140.0, "dec": 50.5},
-        {"ra": 137.02, "dec": 47.16}
-      ]},
-      {"comment": "shoulder_connect", "vertices": [
-        {"ra": 165.93, "dec": 61.75}, {"ra": 165.46, "dec": 56.38}
-      ]},
-      {"comment": "back_Dubhe_to_Phecda", "vertices": [
-        {"ra": 165.93, "dec": 61.75}, {"ra": 170.0, "dec": 60.0},
-        {"ra": 174.0, "dec": 57.5}, {"ra": 178.46, "dec": 53.69}
-      ]},
-      {"comment": "belly_Merak_to_Phecda", "vertices": [
-        {"ra": 165.46, "dec": 56.38}, {"ra": 168.0, "dec": 54.5},
-        {"ra": 172.0, "dec": 52.5}, {"ra": 175.0, "dec": 51.5},
-        {"ra": 178.46, "dec": 53.69}
-      ]},
-      {"comment": "rump_top_Phecda_Megrez_Alioth", "vertices": [
-        {"ra": 178.46, "dec": 53.69}, {"ra": 180.5, "dec": 55.5},
-        {"ra": 183.86, "dec": 57.03}, {"ra": 188.0, "dec": 57.0},
-        {"ra": 193.51, "dec": 55.96}
-      ]},
-      {"comment": "rump_bottom", "vertices": [
-        {"ra": 178.46, "dec": 53.69}, {"ra": 181.0, "dec": 51.0},
-        {"ra": 184.0, "dec": 49.5}, {"ra": 188.0, "dec": 49.0},
-        {"ra": 193.51, "dec": 55.96}
-      ]},
-      {"comment": "tail_Alioth_Mizar_Alkaid", "vertices": [
-        {"ra": 193.51, "dec": 55.96}, {"ra": 197.0, "dec": 55.5},
-        {"ra": 200.98, "dec": 54.93}, {"ra": 204.0, "dec": 52.5},
-        {"ra": 206.89, "dec": 49.31}
-      ]},
-      {"comment": "tail_tip", "vertices": [
-        {"ra": 206.89, "dec": 49.31}, {"ra": 208.0, "dec": 48.0},
-        {"ra": 208.5, "dec": 47.0}
-      ]},
-      {"comment": "front_right_leg_from_Tania", "vertices": [
-        {"ra": 155.58, "dec": 41.50}, {"ra": 155.0, "dec": 39.0},
-        {"ra": 155.5, "dec": 36.5}, {"ra": 156.5, "dec": 35.5}
-      ]},
-      {"comment": "front_left_leg_from_Tania_Bor", "vertices": [
-        {"ra": 151.86, "dec": 42.91}, {"ra": 151.0, "dec": 40.0},
-        {"ra": 151.5, "dec": 37.5}, {"ra": 152.5, "dec": 36.5}
-      ]},
-      {"comment": "front_leg_connect_to_belly", "vertices": [
-        {"ra": 137.02, "dec": 47.16}, {"ra": 142.0, "dec": 45.0},
-        {"ra": 147.0, "dec": 43.5}, {"ra": 151.86, "dec": 42.91},
-        {"ra": 155.58, "dec": 41.50}, {"ra": 159.0, "dec": 43.0},
-        {"ra": 163.0, "dec": 45.0}, {"ra": 167.42, "dec": 44.50}
-      ]},
-      {"comment": "hind_right_leg_from_Alula", "vertices": [
-        {"ra": 169.55, "dec": 31.53}, {"ra": 170.0, "dec": 29.0},
-        {"ra": 170.5, "dec": 27.0}, {"ra": 171.5, "dec": 26.0}
-      ]},
-      {"comment": "hind_left_leg_from_Alula_Bor", "vertices": [
-        {"ra": 169.62, "dec": 33.09}, {"ra": 168.5, "dec": 30.5},
-        {"ra": 168.0, "dec": 28.0}, {"ra": 169.0, "dec": 26.5}
-      ]},
-      {"comment": "hind_leg_connect_to_belly", "vertices": [
-        {"ra": 167.42, "dec": 44.50}, {"ra": 168.0, "dec": 42.0},
-        {"ra": 168.5, "dec": 39.0}, {"ra": 169.0, "dec": 36.0},
-        {"ra": 169.62, "dec": 33.09}, {"ra": 169.55, "dec": 31.53},
-        {"ra": 170.0, "dec": 35.0}, {"ra": 172.0, "dec": 38.0},
-        {"ra": 175.0, "dec": 42.0}, {"ra": 176.51, "dec": 47.78},
-        {"ra": 178.46, "dec": 53.69}
-      ]}
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 206.88515682,
+            "dec": 49.31326506
+          },
+          {
+            "ra": 200.9814288,
+            "dec": 54.92536175
+          },
+          {
+            "ra": 193.50728928,
+            "dec": 55.95982116
+          },
+          {
+            "ra": 183.85650051,
+            "dec": 57.0326169
+          },
+          {
+            "ra": 165.93195289,
+            "dec": 61.7510332
+          },
+          {
+            "ra": 165.46031999,
+            "dec": 56.38242679
+          },
+          {
+            "ra": 178.45769772,
+            "dec": 53.69476008
+          },
+          {
+            "ra": 183.85650051,
+            "dec": 57.0326169
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 178.45769772,
+            "dec": 53.69476008
+          },
+          {
+            "ra": 176.51255835,
+            "dec": 47.77940596
+          },
+          {
+            "ra": 167.41586845,
+            "dec": 44.49848682
+          },
+          {
+            "ra": 154.27413109,
+            "dec": 42.91436491
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 167.41586845,
+            "dec": 44.49848682
+          },
+          {
+            "ra": 155.58225241,
+            "dec": 41.49951638
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 165.46031999,
+            "dec": 56.38242679
+          },
+          {
+            "ra": 148.02648325,
+            "dec": 54.06433236
+          },
+          {
+            "ra": 143.21430974,
+            "dec": 51.67730022
+          },
+          {
+            "ra": 135.90636137,
+            "dec": 47.15652471
+          }
+        ]
+      },
+      {
+        "comment": "stroke_4",
+        "vertices": [
+          {
+            "ra": 143.21430974,
+            "dec": 51.67730022
+          },
+          {
+            "ra": 134.80189116,
+            "dec": 48.04182647
+          }
+        ]
+      },
+      {
+        "comment": "stroke_5",
+        "vertices": [
+          {
+            "ra": 148.02648325,
+            "dec": 54.06433236
+          },
+          {
+            "ra": 147.74732429,
+            "dec": 59.03873553
+          },
+          {
+            "ra": 127.56612488,
+            "dec": 60.71816925
+          },
+          {
+            "ra": 142.88211727,
+            "dec": 63.06186073
+          },
+          {
+            "ra": 165.93195289,
+            "dec": 61.7510332
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leo",
+    "comment": "leo figures from Stellarium",
+    "color": "0x80FFD700",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 177.26490656,
+            "dec": 14.57206032
+          },
+          {
+            "ra": 168.56002157,
+            "dec": 15.42957019
+          },
+          {
+            "ra": 152.0929611,
+            "dec": 11.96720706
+          },
+          {
+            "ra": 151.83313456,
+            "dec": 16.76266443
+          },
+          {
+            "ra": 154.99314355,
+            "dec": 19.84148873
+          },
+          {
+            "ra": 168.52708898,
+            "dec": 20.52371682
+          },
+          {
+            "ra": 177.26490656,
+            "dec": 14.57206032
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 154.99314355,
+            "dec": 19.84148873
+          },
+          {
+            "ra": 154.1725706,
+            "dec": 23.41731066
+          },
+          {
+            "ra": 148.19090535,
+            "dec": 26.00695149
+          },
+          {
+            "ra": 146.46280429,
+            "dec": 23.77425466
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 168.52708898,
+            "dec": 20.52371682
+          },
+          {
+            "ra": 168.56002157,
+            "dec": 15.42957019
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orion",
+    "comment": "orion figures from Stellarium",
+    "color": "0x80F0E68C",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 85.18969642,
+            "dec": -1.94257224
+          },
+          {
+            "ra": 84.05338934,
+            "dec": -1.20191983
+          },
+          {
+            "ra": 83.00166968,
+            "dec": -0.29909204
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 90.86402644,
+            "dec": 19.69056101
+          },
+          {
+            "ra": 92.98498257,
+            "dec": 14.20876508
+          },
+          {
+            "ra": 91.89302018,
+            "dec": 14.7684717
+          },
+          {
+            "ra": 88.59576026,
+            "dec": 20.27617455
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 92.98498257,
+            "dec": 14.20876508
+          },
+          {
+            "ra": 90.59582821,
+            "dec": 9.64727656
+          },
+          {
+            "ra": 88.7929386,
+            "dec": 7.40706274
+          },
+          {
+            "ra": 85.18969642,
+            "dec": -1.94257224
+          },
+          {
+            "ra": 86.93912023,
+            "dec": -9.66960478
+          },
+          {
+            "ra": 78.63446812,
+            "dec": -8.20164055
+          },
+          {
+            "ra": 83.00166968,
+            "dec": -0.29909204
+          },
+          {
+            "ra": 81.28276276,
+            "dec": 6.34970223
+          },
+          {
+            "ra": 83.78448789,
+            "dec": 9.93415842
+          },
+          {
+            "ra": 88.7929386,
+            "dec": 7.40706274
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 81.28276276,
+            "dec": 6.34970223
+          },
+          {
+            "ra": 72.46004413,
+            "dec": 6.96127568
+          },
+          {
+            "ra": 72.80151623,
+            "dec": 5.60510396
+          },
+          {
+            "ra": 73.34488587,
+            "dec": 2.50822505
+          },
+          {
+            "ra": 74.63709138,
+            "dec": 1.71401579
+          }
+        ]
+      },
+      {
+        "comment": "stroke_4",
+        "vertices": [
+          {
+            "ra": 72.46004413,
+            "dec": 6.96127568
+          },
+          {
+            "ra": 72.65300729,
+            "dec": 8.90017585
+          },
+          {
+            "ra": 73.72386617,
+            "dec": 10.1508331
+          }
+        ]
+      },
+      {
+        "comment": "stroke_5",
+        "vertices": [
+          {
+            "ra": 91.89302018,
+            "dec": 14.7684717
+          },
+          {
+            "ra": 90.59582821,
+            "dec": 9.64727656
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pegasus",
+    "comment": "pegasus figures from Stellarium",
+    "color": "0x80B0C4DE",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 3.30897012,
+            "dec": 15.1835959
+          },
+          {
+            "ra": 346.19022409,
+            "dec": 15.20526442
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 345.94357301,
+            "dec": 28.08278909
+          },
+          {
+            "ra": 340.75057261,
+            "dec": 30.2212452
+          },
+          {
+            "ra": 332.3068075,
+            "dec": 33.17233752
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 345.94357301,
+            "dec": 28.08278909
+          },
+          {
+            "ra": 342.50080334,
+            "dec": 24.60157928
+          },
+          {
+            "ra": 341.63282775,
+            "dec": 23.56565397
+          },
+          {
+            "ra": 331.75277532,
+            "dec": 25.34511155
+          },
+          {
+            "ra": 326.16139335,
+            "dec": 25.64503558
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 346.19022409,
+            "dec": 15.20526442
+          },
+          {
+            "ra": 341.67325244,
+            "dec": 12.17288788
+          },
+          {
+            "ra": 340.3655033,
+            "dec": 10.83136442
+          },
+          {
+            "ra": 332.54993837,
+            "dec": 6.19786491
+          },
+          {
+            "ra": 326.04649214,
+            "dec": 9.87501126
+          }
+        ]
+      },
+      {
+        "comment": "stroke_4",
+        "vertices": [
+          {
+            "ra": 2.09691071,
+            "dec": 29.09043199
+          },
+          {
+            "ra": 345.94357301,
+            "dec": 28.08278909
+          }
+        ]
+      },
+      {
+        "comment": "stroke_5",
+        "vertices": [
+          {
+            "ra": 2.09691071,
+            "dec": 29.09043199
+          },
+          {
+            "ra": 3.30897012,
+            "dec": 15.1835959
+          }
+        ]
+      },
+      {
+        "comment": "stroke_6",
+        "vertices": [
+          {
+            "ra": 345.94357301,
+            "dec": 28.08278909
+          },
+          {
+            "ra": 346.19022409,
+            "dec": 15.20526442
+          }
+        ]
+      }
     ]
   },
   {
     "id": "ursa_minor",
-    "comment": "Ursa Minor - The Little Bear. Polaris at tail tip, Kochab/Pherkad at head, body along Little Dipper",
-    "color": "0x5087CEEB",
+    "comment": "ursa_minor figures from Stellarium",
+    "color": "0x8087CEEB",
     "line_width": 1.5,
     "strokes": [
-      {"comment": "head_around_Kochab_Pherkad", "vertices": [
-        {"ra": 222.68, "dec": 74.16}, {"ra": 220.0, "dec": 75.5},
-        {"ra": 218.0, "dec": 74.5}, {"ra": 217.0, "dec": 72.5},
-        {"ra": 219.0, "dec": 70.5}, {"ra": 222.0, "dec": 69.5},
-        {"ra": 226.0, "dec": 70.0}, {"ra": 230.18, "dec": 71.83},
-        {"ra": 233.0, "dec": 73.5}, {"ra": 234.0, "dec": 75.0},
-        {"ra": 232.0, "dec": 76.0}, {"ra": 228.0, "dec": 76.0},
-        {"ra": 224.0, "dec": 75.5}, {"ra": 222.68, "dec": 74.16}
-      ]},
-      {"comment": "nose", "vertices": [
-        {"ra": 217.0, "dec": 72.5}, {"ra": 215.0, "dec": 72.0},
-        {"ra": 214.0, "dec": 71.0}, {"ra": 215.0, "dec": 70.0},
-        {"ra": 217.0, "dec": 70.0}, {"ra": 219.0, "dec": 70.5}
-      ]},
-      {"comment": "ear", "vertices": [
-        {"ra": 226.0, "dec": 70.0}, {"ra": 227.0, "dec": 68.0},
-        {"ra": 229.0, "dec": 68.5}, {"ra": 230.18, "dec": 71.83}
-      ]},
-      {"comment": "body_upper_to_zeta_epsilon_delta", "vertices": [
-        {"ra": 234.0, "dec": 75.0}, {"ra": 236.01, "dec": 77.79},
-        {"ra": 240.0, "dec": 79.0}, {"ra": 245.54, "dec": 75.76},
-        {"ra": 249.56, "dec": 82.04}, {"ra": 255.0, "dec": 84.0},
-        {"ra": 263.05, "dec": 86.59}
-      ]},
-      {"comment": "body_lower", "vertices": [
-        {"ra": 222.68, "dec": 74.16}, {"ra": 228.0, "dec": 72.0},
-        {"ra": 235.0, "dec": 73.0}, {"ra": 240.0, "dec": 74.5},
-        {"ra": 248.0, "dec": 78.0}, {"ra": 255.0, "dec": 81.0},
-        {"ra": 263.05, "dec": 86.59}
-      ]},
-      {"comment": "tail_delta_to_Polaris", "vertices": [
-        {"ra": 263.05, "dec": 86.59}, {"ra": 280.0, "dec": 87.5},
-        {"ra": 320.0, "dec": 88.5}, {"ra": 0.0, "dec": 89.0},
-        {"ra": 37.95, "dec": 89.26}
-      ]},
-      {"comment": "tail_tip", "vertices": [
-        {"ra": 37.95, "dec": 89.26}, {"ra": 60.0, "dec": 89.5},
-        {"ra": 80.0, "dec": 89.0}
-      ]},
-      {"comment": "front_legs", "vertices": [
-        {"ra": 228.0, "dec": 72.0}, {"ra": 226.0, "dec": 69.0}, {"ra": 225.0, "dec": 67.5}
-      ]},
-      {"comment": "front_legs2", "vertices": [
-        {"ra": 235.0, "dec": 73.0}, {"ra": 234.0, "dec": 70.0}, {"ra": 233.0, "dec": 68.5}
-      ]},
-      {"comment": "hind_legs", "vertices": [
-        {"ra": 248.0, "dec": 78.0}, {"ra": 250.0, "dec": 75.0}, {"ra": 252.0, "dec": 73.5}
-      ]},
-      {"comment": "hind_legs2", "vertices": [
-        {"ra": 255.0, "dec": 81.0}, {"ra": 258.0, "dec": 78.0}, {"ra": 260.0, "dec": 76.5}
-      ]}
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 37.95451535,
+            "dec": 89.26410951
+          },
+          {
+            "ra": 263.05416851,
+            "dec": 86.58646042
+          },
+          {
+            "ra": 251.49268245,
+            "dec": 82.03726206
+          },
+          {
+            "ra": 236.01466385,
+            "dec": 77.79449293
+          },
+          {
+            "ra": 244.37619927,
+            "dec": 75.75533045
+          },
+          {
+            "ra": 230.18214784,
+            "dec": 71.83401605
+          },
+          {
+            "ra": 222.67636006,
+            "dec": 74.15550491
+          },
+          {
+            "ra": 236.01466385,
+            "dec": 77.79449293
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sagittarius",
+    "comment": "sagittarius figures from Stellarium",
+    "color": "0x8020B2AA",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 275.24850731,
+            "dec": -29.82810326
+          },
+          {
+            "ra": 276.99266896,
+            "dec": -25.42170011
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 274.40681271,
+            "dec": -36.76168598
+          },
+          {
+            "ra": 276.04299301,
+            "dec": -34.38461611
+          },
+          {
+            "ra": 271.45202872,
+            "dec": -30.42409129
+          },
+          {
+            "ra": 266.89010281,
+            "dec": -27.83078848
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 271.45202872,
+            "dec": -30.42409129
+          },
+          {
+            "ra": 275.24850731,
+            "dec": -29.82810326
+          },
+          {
+            "ra": 276.04299301,
+            "dec": -34.38461611
+          },
+          {
+            "ra": 285.65297476,
+            "dec": -29.88010539
+          },
+          {
+            "ra": 281.41411035,
+            "dec": -26.99077831
+          },
+          {
+            "ra": 275.24850731,
+            "dec": -29.82810326
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 281.41411035,
+            "dec": -26.99077831
+          },
+          {
+            "ra": 276.99266896,
+            "dec": -25.42170011
+          },
+          {
+            "ra": 273.44087411,
+            "dec": -21.05883369
+          }
+        ]
+      },
+      {
+        "comment": "stroke_4",
+        "vertices": [
+          {
+            "ra": 285.65297476,
+            "dec": -29.88010539
+          },
+          {
+            "ra": 286.7350369,
+            "dec": -27.67042304
+          },
+          {
+            "ra": 283.81635716,
+            "dec": -26.29672225
+          },
+          {
+            "ra": 281.41411035,
+            "dec": -26.99077831
+          }
+        ]
+      },
+      {
+        "comment": "stroke_5",
+        "vertices": [
+          {
+            "ra": 283.81635716,
+            "dec": -26.29672225
+          },
+          {
+            "ra": 284.43250651,
+            "dec": -21.1066543
+          },
+          {
+            "ra": 286.1707572,
+            "dec": -21.74149568
+          },
+          {
+            "ra": 289.40866411,
+            "dec": -18.95290801
+          },
+          {
+            "ra": 290.41816155,
+            "dec": -17.84719749
+          }
+        ]
+      },
+      {
+        "comment": "stroke_6",
+        "vertices": [
+          {
+            "ra": 286.7350369,
+            "dec": -27.67042304
+          },
+          {
+            "ra": 294.00688893,
+            "dec": -24.71908146
+          },
+          {
+            "ra": 300.66450229,
+            "dec": -27.70984484
+          },
+          {
+            "ra": 299.93407757,
+            "dec": -35.27630546
+          },
+          {
+            "ra": 298.81540582,
+            "dec": -41.86828808
+          },
+          {
+            "ra": 290.97156872,
+            "dec": -40.61593993
+          }
+        ]
+      },
+      {
+        "comment": "stroke_7",
+        "vertices": [
+          {
+            "ra": 298.81540582,
+            "dec": -41.86828808
+          },
+          {
+            "ra": 290.80473701,
+            "dec": -44.79977847
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scorpius",
+    "comment": "scorpius figures from Stellarium",
+    "color": "0x80FF6347",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 263.40216661,
+            "dec": -37.10382115
+          },
+          {
+            "ra": 265.62197877,
+            "dec": -39.02998302
+          },
+          {
+            "ra": 266.89617277,
+            "dec": -40.12699753
+          },
+          {
+            "ra": 264.32971086,
+            "dec": -42.99782386
+          },
+          {
+            "ra": 258.03830643,
+            "dec": -43.23918896
+          },
+          {
+            "ra": 253.49886208,
+            "dec": -42.36202495
+          },
+          {
+            "ra": 252.96763467,
+            "dec": -38.04737967
+          },
+          {
+            "ra": 252.54088739,
+            "dec": -34.29323171
+          },
+          {
+            "ra": 248.97064054,
+            "dec": -28.21601625
+          },
+          {
+            "ra": 247.35192046,
+            "dec": -26.43200249
+          },
+          {
+            "ra": 240.08335942,
+            "dec": -22.62170993
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 247.35192046,
+            "dec": -26.43200249
+          },
+          {
+            "ra": 239.71297035,
+            "dec": -26.11410529
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 247.35192046,
+            "dec": -26.43200249
+          },
+          {
+            "ra": 241.35929462,
+            "dec": -19.80545336
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taurus",
+    "comment": "taurus figures from Stellarium",
+    "color": "0x80F08080",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 81.57297249,
+            "dec": 28.60745001
+          },
+          {
+            "ra": 70.56125702,
+            "dec": 22.95692604
+          },
+          {
+            "ra": 67.15416474,
+            "dec": 19.18043155
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 68.9801611,
+            "dec": 16.50930139
+          },
+          {
+            "ra": 84.4111907,
+            "dec": 21.14254914
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 64.94834891,
+            "dec": 15.62764232
+          },
+          {
+            "ra": 65.73372189,
+            "dec": 17.5425142
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 64.94834891,
+            "dec": 15.62764232
+          },
+          {
+            "ra": 60.17006562,
+            "dec": 12.49034659
+          },
+          {
+            "ra": 51.20330738,
+            "dec": 9.02886984
+          }
+        ]
+      },
+      {
+        "comment": "stroke_4",
+        "vertices": [
+          {
+            "ra": 68.9801611,
+            "dec": 16.50930139
+          },
+          {
+            "ra": 67.15416474,
+            "dec": 19.18043155
+          }
+        ]
+      },
+      {
+        "comment": "stroke_5",
+        "vertices": [
+          {
+            "ra": 68.9801611,
+            "dec": 16.50930139
+          },
+          {
+            "ra": 67.16558676,
+            "dec": 15.87088266
+          },
+          {
+            "ra": 64.94834891,
+            "dec": 15.62764232
+          }
+        ]
+      },
+      {
+        "comment": "stroke_6",
+        "vertices": [
+          {
+            "ra": 67.15416474,
+            "dec": 19.18043155
+          },
+          {
+            "ra": 66.37243249,
+            "dec": 17.92791025
+          },
+          {
+            "ra": 65.73372189,
+            "dec": 17.5425142
+          },
+          {
+            "ra": 57.29059399,
+            "dec": 24.05341547
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "virgo",
+    "comment": "virgo figures from Stellarium",
+    "color": "0x80DDA0DD",
+    "line_width": 1.5,
+    "strokes": [
+      {
+        "comment": "stroke_0",
+        "vertices": [
+          {
+            "ra": 176.46482927,
+            "dec": 6.52937639
+          },
+          {
+            "ra": 184.66798999,
+            "dec": -0.7871841
+          },
+          {
+            "ra": 190.41517626,
+            "dec": -1.44937487
+          },
+          {
+            "ra": 201.29824701,
+            "dec": -11.16132203
+          },
+          {
+            "ra": 213.22394074,
+            "dec": -10.2737018
+          },
+          {
+            "ra": 214.00362402,
+            "dec": -6.00054666
+          },
+          {
+            "ra": 220.76509742,
+            "dec": -5.65820663
+          }
+        ]
+      },
+      {
+        "comment": "stroke_1",
+        "vertices": [
+          {
+            "ra": 201.29824701,
+            "dec": -11.16132203
+          },
+          {
+            "ra": 203.67330011,
+            "dec": -0.59582018
+          },
+          {
+            "ra": 210.41163881,
+            "dec": 1.54453185
+          },
+          {
+            "ra": 221.56218374,
+            "dec": 1.89288544
+          }
+        ]
+      },
+      {
+        "comment": "stroke_2",
+        "vertices": [
+          {
+            "ra": 203.67330011,
+            "dec": -0.59582018
+          },
+          {
+            "ra": 193.90086578,
+            "dec": 3.39747026
+          },
+          {
+            "ra": 195.54415463,
+            "dec": 10.95915037
+          }
+        ]
+      },
+      {
+        "comment": "stroke_3",
+        "vertices": [
+          {
+            "ra": 193.90086578,
+            "dec": 3.39747026
+          },
+          {
+            "ra": 190.41517626,
+            "dec": -1.44937487
+          }
+        ]
+      }
     ]
   }
 ]
